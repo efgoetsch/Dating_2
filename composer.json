@@ -1,0 +1,12 @@
+{
+  "name" : "egoetsch/dating",
+  "authors" : [
+    {
+      "name" : "Ellen Goetsch",
+      "email" : "egoetsch@mail.greenriver.edu"
+    }
+  ],
+  "require" : {
+    "bcosca/fatfree-core" : "dev-master"
+  }
+}

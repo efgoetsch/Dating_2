@@ -1,0 +1,30 @@
+/*
+    Ellen Goetsch
+    January 19, 2019
+    styles.styles
+    Stylesheet for home.html (My Dating Website)
+
+ */
+
+h1, h2, h3, h4, h5
+{
+    text-align: center;
+}
+
+h6
+{
+    display: inline-block;
+    text-align: justify-all;
+}
+
+p
+{
+    margin-top: 7%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+button
+{
+    margin-left: 23%;
+}
