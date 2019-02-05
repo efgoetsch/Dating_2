@@ -1,6 +1,7 @@
 /*
     Ellen Goetsch
-    January 19, 2019
+    January 19, 2019 (original)
+    February 4, 2019 (revised)
     styles.styles
     Stylesheet for home.html (My Dating Website)
 
@@ -27,4 +28,14 @@ p
 button
 {
     margin-left: 23%;
+}
+
+label
+{
+    font-weight: bolder;
+}
+
+aside
+{
+    text-align: center;
 }
