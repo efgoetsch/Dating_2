@@ -1,3 +1,8 @@
+<!--
+        Ellen Goetsch
+        2/10/19
+        personal_info.php
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +15,7 @@
 <body>
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="form-row">
         <div class="col-sm">
             <form id="personalform" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <fieldset>
@@ -33,7 +38,11 @@
             <input type="text" size="100" maxlength="100"
                    name="phone" id="phone">
         </fieldset>
-        <button class="btn btn-primary btn-lg float-right">Next ></button>
+                <div class="form-row">
+                    <div class="col mr-auto">
+                        <button class="btn btn-primary btn-lg">Next ></button>
+                    </div>
+                </div>
     </form>
     </div>
         <div class="col-sm">
